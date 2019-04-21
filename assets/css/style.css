@@ -68,18 +68,20 @@ ul {
     padding: 0;
     position: absolute;
     left: 80%;
-    bottom: 80%;
+    bottom: 27%;
 }
 
 li {
-    /* display: inline; */
-    float: right;
+    display: inline-block;
 }
 
 .nav {
     display: block;
     padding: 8px;
     background-color: #ffffff;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
 }
 
 .con-top {
@@ -88,4 +90,26 @@ li {
     border-bottom: 2px solid #dddddd;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.con-par {
+    white-space: nowrap;
+}
+
+#about, #portfolio {
+    border-right: 2px solid #dddddd;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+.footer {
+    border-top: 8px solid #4aaaa5;
+    height: 80px;
+    width: 100%;
+    background-color: #666666;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
