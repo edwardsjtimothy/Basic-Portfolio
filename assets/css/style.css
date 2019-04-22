@@ -33,9 +33,9 @@ header {
     border: 2px solid #dddddd;
     line-height: 1.5;
     background-color: #ffffff;
-    box-shadow: 5px 10px #888;
+    box-shadow: 5px 10px #888888;
     position: relative;
-    top: 130px; 
+    top: 100px; 
 }
 
 #profile-photo {
@@ -140,3 +140,20 @@ input[type=submit] {
     cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+img {
+    padding: 20px;
+    height: 200px;
+    width: 275px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
