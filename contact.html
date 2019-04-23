@@ -9,7 +9,8 @@
 
 <body class="shapes">
     <header>
-        <h1 id="name">Tim Edwards</h1>
+       <div class="wrapper">
+          <h1 id="name">Tim Edwards</h1>
             <div class="con-par">   
                 <ul>
                     <li><a id="about" class="nav" href="index.html">About</a></li>
@@ -17,15 +18,16 @@
                     <li><a class="nav" href="#">Contact</a></li>
                 </ul>
             </div>
+        </div>  
     </header>
 
 
     <div class=container>
         <h2 class="con-top">Contact</h2>
 
-        <form id="contact-form" action="/action_page.php">
+        <form action="/action_page.php">
             Name:<br>
-            <input type="text" name="name">
+            <input type="text" name="name" autofocus="autofocus">
             <br>
             Email:<br>
             <input type="text" name="email">
