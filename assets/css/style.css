@@ -4,7 +4,7 @@
 
 header {
     background-color: #ffffff;
-    height: 10%;
+    height: 96px;
     font-family: "Georgia", "Times New Roman", Times, serif;
     font-size: 18px;
     line-height: 150%;
@@ -112,6 +112,7 @@ a:hover {
     color: #4aaaa5;
 }
 
+
 .footer {
     border-top: 8px solid #4aaaa5;
     height: 80px;
@@ -120,6 +121,7 @@ a:hover {
     position: absolute;
     bottom: 0px;
     left: 0px;
+    z-index: 1;
 }
 
 
@@ -182,7 +184,7 @@ row:after {
     Top: 110px;
     padding: 10px 0px 10px 0px; 
     font-family: "Georgia", "Times New Roman", Times, serif;
-    z-index: 2;
+    z-index: 1;
     border: none;
 }
 
